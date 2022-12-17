@@ -2,6 +2,7 @@
 import navbar from './components/navbar.vue'
 import home from './components/home.vue'
 import aboutUs from './components/about-us.vue'
+import foodCategory from './components/food-category.vue'
 </script>
 
 <template>
@@ -9,6 +10,7 @@ import aboutUs from './components/about-us.vue'
     <navbar/>
     <home/>
     <aboutUs/>
+    <foodCategory/>
   </div>
 </template>
 
