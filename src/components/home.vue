@@ -1,5 +1,5 @@
 <template>
-    <section class=" h-96 lg:flex ">
+    <section class=" lg:h-[440px] lg:flex ">
         <!-- header -->
         <div class="w-full lg:w-1/2 flex flex-col justify-center items-start z-30">
             <p class="font-miniver text-lg text-accent">Healthy & Testy Food</p>
@@ -11,9 +11,9 @@
             </div>
         </div>
         <!-- home display -->
-        <div class="w-full lg:w-1/2 relative pt-10 lg:static lg:pt-0">
-            <img :src="`./images/abstract.svg`" alt="" class="w-[800px] absolute lg:top-[-150px] lg:right-[-100px] z-10">
-            <img :src="`./images/home-display.webp`" alt="" class="z-20 absolute w-[600px] lg:top-20 lg:right-24">
+        <div class="w-full lg:w-1/2 relative pt-10 lg:pt-0">
+            <img :src="`./images/home-display.webp`" alt="" class="z-20 absolute w-[600px] ">
+            <img :src="`./images/abstract.svg`" alt="" class="w-[600px] lg:absolute lg:top-[-50px] lg:right-[-50px] z-10">
         </div>
     </section>
 </template>
