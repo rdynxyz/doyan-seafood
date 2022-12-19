@@ -3,19 +3,65 @@
         <div class="">
             <h1 class="font-roboto font-bold text-5xl text-header text-center">Food Category</h1>
             <p class="text-center mt-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit. <br>
-            Varius sed pharetra dictum neque massa congue</p>
+                Varius sed pharetra dictum neque massa congue</p>
         </div>
-        <div class="flex mt-10">
-            <div class="card w-80 bg-red-500">
-kldasj
-            </div>
-        </div>
+
+        <swiper :slidesPerView="3" :spaceBetween="30" :slidesPerGroup="3" :loop="true" :loopFillGroupWithBlank="true"
+            :pagination="{
+                clickable: true,
+            }" :navigation="true" :modules="modules" class="mySwiper flex mt-10 justify-center gap-5 relative">
+                <swiper-slide v-for="card in cards" :key="card" class="card w-60 bg-gray-100 rounded-md">
+                    <div class="images  h-[200px] overflow-hidden">
+                        <img :src="`${card.img}`" alt="" class="w-[100%] rounded-md">
+                    </div>
+                    <div class="description     py-4">
+                        <h2 class="text-center">{{ card.name }}</h2>
+                        <p class="text-center">{{ card.item }}</p>
+                    </div>
+                </swiper-slide>
+                <div class="w-full h-full flex items-center justify-between absolute">
+                    <button class="p-4 bg-accent/70 rounded-md"><img :src="`./icons/CaretLeft.svg`" alt=""></button>
+                    <button class="p-4 bg-accent rounded-md"><img :src="`./icons/CaretRight.svg`" alt=""></button>
+                </div>
+        </swiper>
     </section>
 </template>
 
 <script>
-export default {
+import { registerRuntimeCompiler } from '@vue/runtime-core'
+// // Import Swiper Vue.js components
+// import { Swiper, SwiperSlide } from "swiper/vue";
 
+// // Import Swiper styles
+// import "swiper/css";
+
+// import "swiper/css/pagination";
+// import "swiper/css/navigation";
+
+// import "./style.css";
+
+// // import required modules
+// import { Pagination, Navigation } from "swiper";
+
+export default {
+    setup() {
+        let cards = [
+            { img: 'images/pic-4.webp', name: 'Asd', desc: 'qwe', item: '1' },
+            { img: 'images/pic-1.webp', name: 'Aqwe', desc: 'qwe', item: '1' },
+            { img: 'images/pic-2.webp', name: 'Axzc', desc: 'qwe', item: '1' },
+            { img: 'images/pic-3.webp', name: 'Agsf', desc: 'qwe', item: '1' },
+        ]
+        return { cards, }
+    },
+    //     components: {
+    //     Swiper,
+    //     SwiperSlide,
+    //   },
+    //   setup() {
+    //     return {
+    //       modules: [Pagination, Navigation],
+    //     };
+    //   },
 }
 </script>
 

@@ -2,10 +2,10 @@
     <section class="pt-32 lg:flex ">
         <div class="w-full lg:w-1/2 flex">
             <div class="">
-                <img :src="`./images/Keto-Diet-Foods-Seafood.png`" alt="" class="w-[300px] rounded-md"/>
+                <img :src="`./images/pic-1.webp`" alt="" class="w-[300px] rounded-md"/>
             </div>
             <div class="ml-5 mt-16">
-                <img :src="`./images/pic-4.webp`" alt="" class="w-[300px] rounded-md">
+                <img :src="`./images/pic-2.webp`" alt="" class="w-[300px] rounded-md">
                 <img :src="`./images/pic-3.webp`" alt="" class="w-[300px] rounded-md mt-5">
             </div>
         </div>

@@ -3,6 +3,7 @@ import navbar from './components/navbar.vue'
 import home from './components/home.vue'
 import aboutUs from './components/about-us.vue'
 import foodCategory from './components/food-category.vue'
+import whyUs from './components/why-us.vue'
 </script>
 
 <template>
@@ -11,6 +12,7 @@ import foodCategory from './components/food-category.vue'
     <home/>
     <aboutUs/>
     <foodCategory/>
+    <whyUs/>
   </div>
 </template>
 
