@@ -6,7 +6,7 @@
         </div>
         <div class="w-full lg:w-1/2 pt-10">
             <p class="font-miniver text-accent text-lg">Why choose us</p>
-            <h1 class="text-5xl text-header font-bold mt-2">Why We are the best?</h1>
+            <h1 class="text-5xl text-header font-roboto font-bold mt-2">Why We are the best?</h1>
             <p class="mt-8">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque diam pellentesque bibendum
                 non dui volutpat fringilla bibendum. Urna, elit augue urna, vitae feugiat pretium donec id elementum.
                 Ultrices mattis sed vitae mus risus. Lacus nisi, et ac dapibus sit eu velit in consequat.</p>
