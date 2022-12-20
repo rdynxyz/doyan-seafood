@@ -6,7 +6,7 @@ import foodCategory from './components/food-category.vue'
 import whyUs from './components/why-us.vue'
 import foodMenu from './components/food-menu.vue'
 import testimonials from './components/testimonials.vue'
-import footerSec from './components/footer.vue'
+import footerSec from './components/footer-section.vue'
 </script>
 
 <template>
