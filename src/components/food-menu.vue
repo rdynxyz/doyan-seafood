@@ -1,5 +1,5 @@
 <template>
-    <section class="pt-32 pb-10">
+    <section class="pt-32  flex flex-col">
         <h1 class="text-5xl text-header font-bold font-roboto text-center">Our Food Menu</h1>
         <p class="text-center mt-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit. <br> Varius sed pharetra dictum neque massa congue</p>
         <div class="w-full border-b-[1px] pb-4 mt-10 gap-11 flex md:justify-center text-xl overflow-x-scroll md:overflow-hidden">
@@ -14,8 +14,11 @@
                     <h2 class="text-header">{{ menu.name }}</h2>
                     <p class="text-base font-normal mt-1 font-inter">{{ menu.desc }}</p>
                 </div>
-                <span class="text-accent">{{ menu.price }}</span>
+                <span class="text-accent text-end">{{ menu.price }}</span>
             </div>
+        </div>
+        <div class="flex justify-center mt-8">
+            <a href="" class="border-[1px] border-accent text-accent py-2 px-6 rounded-md">View menu</a>
         </div>
     </section>
 </template>

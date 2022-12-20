@@ -2,7 +2,7 @@
     <section class="pt-32 lg:flex">
         <div class="w-full lg:w-1/2 relative">
             <img :src="`images/pic-4.webp`" alt="" class="w-80 rounded-md">
-            <img :src="`images/pic-5.webp`" alt="" class="w-80 rounded-md absolute bottom-0 right-10">
+            <img :src="`images/pic-5.webp`" alt="" class="w-80 rounded-md absolute bottom-[-30px] lg:bottom-0 right-0 md:right-10">
         </div>
         <div class="w-full lg:w-1/2 pt-10">
             <p class="font-miniver text-accent text-lg">Why choose us</p>

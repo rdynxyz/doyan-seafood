@@ -5,6 +5,8 @@ import aboutUs from './components/about-us.vue'
 import foodCategory from './components/food-category.vue'
 import whyUs from './components/why-us.vue'
 import foodMenu from './components/food-menu.vue'
+import testimonials from './components/testimonials.vue'
+import footerSec from './components/footer.vue'
 </script>
 
 <template>
@@ -15,8 +17,9 @@ import foodMenu from './components/food-menu.vue'
     <foodCategory/>
     <whyUs/>
     <foodMenu/>
-    
+    <testimonials/>
   </div>
+  <footerSec/>
 </template>
 
 <style scoped>

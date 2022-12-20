@@ -1,5 +1,5 @@
 <template>
-    <section class="pt-32 lg:flex ">
+    <section id="about-us" class="pt-32 lg:flex ">
         <div class="w-full lg:w-1/2 flex">
             <div class="">
                 <img :src="`./images/pic-1.webp`" alt="" class="w-[300px] rounded-md"/>

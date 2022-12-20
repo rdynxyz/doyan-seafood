@@ -16,7 +16,7 @@ export default {
   setup(){
     let navList = [
       {name : 'Home', ref: '#'},
-      {name : 'About Us', ref: '#'},
+      {name : 'About Us', ref: '#about-us'},
       {name : 'Contact', ref: '#'},
       {name : 'Contact', ref: '#'},
     ];
