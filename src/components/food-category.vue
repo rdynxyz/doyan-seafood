@@ -1,9 +1,8 @@
 <template>
     <section class="flex flex-col pt-32 justify-center">
         <div class="">
-            <h1 class="font-roboto font-bold text-5xl text-header text-center">Food Category</h1>
-            <p class="text-center mt-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit. <br>
-                Varius sed pharetra dictum neque massa congue</p>
+            <h1 class="font-roboto font-bold text-5xl text-header text-center">Kategori Makanan</h1>
+            <p class="text-center mt-2 md:w-[450px] m-auto">Terdapat banyak olahan Seafood yang tersedia di sini, mulai dari kepiting, lobster, udang, kerang, cumi dan ikan</p>
         </div>
 
         <swiper :slidesPerView="3" :spaceBetween="30" :slidesPerGroup="3" :loop="true" :loopFillGroupWithBlank="true"

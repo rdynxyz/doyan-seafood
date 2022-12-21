@@ -5,7 +5,7 @@
             <p class="font-miniver text-lg text-accent">Makanan Sehat $ Lezat</p>
             <h1 class="mt-2 text-6xl text-header font-bold font-roboto md:w-[560px]">Nikmati Hidup Sehat & Makanan Lezat.</h1>
  
-            <p class="mt-8 min-[450px]:w-[424px]">Dengan Doyan Seafood, nikmati makanan lezat yang tetap sehat untuk tubuh Anda</p>
+            <p class="mt-8 min-[450px]:w-[424px]">Dengan Doyan Seafood, tak perlu khawatir menikmati makanan lezat yang tetap sehat untuk tubuh Anda</p>
             <div class="mt-8">
                 <button class="px-10 py-3 rounded-md border bg-accent text-white font-bold"><a href="">Order sekarang</a></button>
             </div>

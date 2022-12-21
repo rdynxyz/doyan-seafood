@@ -1,6 +1,6 @@
 <template>
     <section class="pt-32  flex flex-col">
-        <h1 class="text-5xl text-header font-bold font-roboto text-center">Our Food Menu</h1>
+        <h1 class="text-5xl text-header font-bold font-roboto text-center">Menu Masakan Kami</h1>
         <p class="text-center mt-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit. <br> Varius sed pharetra
             dictum neque massa congue</p>
         <div

@@ -11,11 +11,11 @@
         </div>
         <!-- about us -->
         <div class="w-full lg:w-1/2 flex flex-col justify-center lg:pl-20">
-            <p class="text-lg font-miniver text-accent">About Us</p>
-            <h1 class="text-5xl font-bold font-roboto text-header mt-2">Food is an important <br> part Of a balanced Diet</h1>
-            <p class="mt-8">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque diam pellentesque bibendum non dui volutpat fringilla bibendum. Urna, elit augue urna, vitae feugiat pretium donec id elementum. Ultrices mattis  vitae mus risus. Lacus nisi, et ac dapibus sit eu velit in consequat.</p>
+            <p class="text-lg font-miniver text-accent">Tentang Kami</p>
+            <h1 class="text-5xl font-bold font-roboto text-header mt-2 md:w-[540px]">Makanan adalah bagian penting dari diet seimbang</h1>
+            <p class="mt-8">Kami adalah rumah olah Seafood di Surabaya yang mengedepankan kualitas dan keseimbangan komposisi, agar masakan tidak hanya lezat tetapi juga sehat</p>
             <div class="">
-                <button class="px-10 py-3 rounded-md bg-accent text-white font-bold mr-4 mt-8"><a href="">Show more</a></button>
+                <button class="px-10 py-3 rounded-md bg-accent text-white font-bold mr-4 mt-8"><a href="">Lihat detail</a></button>
             </div>
         </div>
     </section>
