@@ -15,8 +15,8 @@
                         <img :src="`${card.img}`" alt="" class="w-[100%] rounded-md">
                     </div>
                     <div class="description     py-4">
-                        <h2 class="text-center">{{ card.name }}</h2>
-                        <p class="text-center">{{ card.item }}</p>
+                        <h2 class="text-center">{{ card.desc }}</h2>
+                        <p class="text-center">{{ card.item }} items</p>
                     </div>
                 </swiper-slide>
                 <div class="w-full h-full flex items-center justify-between absolute">
@@ -46,10 +46,10 @@ import { registerRuntimeCompiler } from '@vue/runtime-core'
 export default {
     setup() {
         let cards = [
-            { img: 'images/ds1.webp', name: 'Crab', desc: 'qwe', item: '1 items' },
-            { img: 'images/ds2.webp', name: 'Lobster', desc: 'qwe', item: '1 items' },
-            { img: 'images/ds3.webp', name: 'Shell', desc: 'qwe', item: '1 items' },
-            { img: 'images/ds4.webp', name: 'Squid', desc: 'qwe', item: '1 items' },
+            { img: 'images/ds1.webp', desc: 'Crab', item: '5' },
+            { img: 'images/ds2.webp', desc: 'Lobster', item: '2' },
+            { img: 'images/ds3.webp', desc: 'Shell', item: '4' },
+            { img: 'images/ds4.webp', desc: 'Squid', item: '1' },
         ]
         return { cards, }
     },
