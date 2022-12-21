@@ -46,10 +46,10 @@ import { registerRuntimeCompiler } from '@vue/runtime-core'
 export default {
     setup() {
         let cards = [
-            { img: 'images/pic-4.webp', name: 'Asd', desc: 'qwe', item: '1' },
-            { img: 'images/pic-1.webp', name: 'Aqwe', desc: 'qwe', item: '1' },
-            { img: 'images/pic-2.webp', name: 'Axzc', desc: 'qwe', item: '1' },
-            { img: 'images/pic-3.webp', name: 'Agsf', desc: 'qwe', item: '1' },
+            { img: 'images/ds1.webp', name: 'Crab', desc: 'qwe', item: '1 items' },
+            { img: 'images/ds2.webp', name: 'Lobster', desc: 'qwe', item: '1 items' },
+            { img: 'images/ds3.webp', name: 'Shell', desc: 'qwe', item: '1 items' },
+            { img: 'images/ds4.webp', name: 'Squid', desc: 'qwe', item: '1 items' },
         ]
         return { cards, }
     },

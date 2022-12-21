@@ -12,8 +12,9 @@
         </div>
         <!-- home display -->
         <div class="w-full lg:w-1/2 relative pt-10 lg:pt-0">
-            <img :src="`./images/home-display.webp`" alt="" class="z-20 absolute w-[600px] ">
-            <img :src="`./images/abstract.svg`" alt="" class="w-[600px] lg:absolute lg:top-[-50px] lg:right-[-50px] z-10">
+            <img :src="`./images/home-display.webp`" alt="" class="z-30 absolute w-[550px] md:top-10 md:right-10">
+            <!-- <div class=" w-full md:w-[300px] h-[300px] rounded-full border-[10px] border-accent lg:absolute top-[-50px] right-[100px]"></div> -->
+            <img :src="`./icons/Slada.svg`" alt="" class="w-[700px]">
         </div>
     </section>
 </template>
