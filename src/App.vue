@@ -7,6 +7,8 @@ import whyUs from './components/why-us.vue'
 import foodMenu from './components/food-menu.vue'
 import testimonials from './components/testimonials.vue'
 import footerSec from './components/footer-section.vue'
+
+import "./style.css";
 </script>
 
 <template>

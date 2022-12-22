@@ -3,15 +3,15 @@
         <div class="container grid grid-cols-1 gap-14 py-20 lg:grid-cols-3 m-auto px-5">
             <div class="">
                 <h1 class="font-bold text-2xl">Doyan Seafood</h1>
-                <p class="mt-6">Subscribe our newsletter and get discount 25%off</p>
+                <p class="mt-6">Mau dapat info discount ke email Anda?</p>
                 <div class="flex mt-6">
-                    <input type="email" name="" placeholder="Enter your email"
+                    <input type="email" name="" placeholder="Alamat email"
                         class="focus:outline-none pl-4 rounded-l-md p-2 w-[220px]">
                     <button class="bg-accent px-3 rounded-r-md"><img :src="`icons/Send.svg`" alt=""></button>
                 </div>
             </div>
             <div class="">
-                <h1 class="font-bold text-2xl">Contact us</h1>
+                <h1 class="font-bold text-2xl">Kontak Kami</h1>
                 <div class="mt-6 flex">
                     <img :src="`./icons/MapPin.svg`" alt="">
                     <p class="ml-2">Rungkut, Surabaya, Jawa Timur</p>
@@ -26,11 +26,11 @@
                 </div>
                 <div class="mt-4 flex">
                     <img :src="`./icons/Clock.svg`" alt="">
-                    <p class="ml-2">Sun - Sat / 10:00 AM - 8:00 PM</p>
+                    <p class="ml-2">Senin - Minggu / 10.00 - 21.00 WIB</p>
                 </div>
             </div>
             <div class="">
-                <h1 class="font-bold text-2xl">Instagram Gallery</h1>
+                <h1 class="font-bold text-2xl">Galeri Instagram</h1>
                 <div class="grid grid-cols-3 gap-1 mt-6">
                     <img :src="`./images/ds1.webp`" alt="">
                     <img :src="`./images/ds2.webp`" alt="">
