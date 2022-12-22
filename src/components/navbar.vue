@@ -1,7 +1,8 @@
 <template>
   <nav class="container h-28 flex items-center z-30">
-    <div class="">
-      <h1 class="text-accent text-2xl font-roboto font-bold">Doyan Seafood</h1>
+    <div class="flex items-center">
+      <img :src="`./images/logo.webp`" alt="" class="w-14">
+      <h1 class="text-accent text-2xl font-roboto font-bold ml-2">Doyan Seafood</h1>
     </div>
     <div class="ml-20 hidden lg:block z-30">
       <ul class="flex gap-8">
@@ -18,7 +19,7 @@ export default {
       {name : 'Home', ref: '#'},
       {name : 'About Us', ref: '#about-us'},
       {name : 'Contact', ref: '#'},
-      {name : 'Contact', ref: '#'},
+      {name : 'Outlet', ref: '#'},
     ];
     return {navList};
   }
