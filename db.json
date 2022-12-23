@@ -1,0 +1,99 @@
+{
+    "foods": [
+            {
+                "name": "Kepiting Soka",
+                "desc": "Soft Shell Crab",
+                "price": "IDR 35K",
+                "category": "kepiting"
+            },
+            {
+                "name": "Kepiting Jantan 4.5 Up",
+                "desc": "Male Crab Live 4.5 Up",
+                "price": "IDR 35K",
+                "category": "kepiting"
+            },
+            {
+                "name": "Kepiting Jumbo 5 Up",
+                "desc": "Jumbo Crab Live 5 Up",
+                "price": "IDR 35K",
+                "category": "kepiting"
+            },
+            {
+                "name": "Kepiting Super Jumbo 7 Up",
+                "desc": "Super Jumbo Crab Live 7 Up",
+                "price": "IDR 35K",
+                "category": "kepiting"
+            },
+            {
+                "name": "Kepiting Extra Super Jumbo",
+                "desc": " Extra Super Jumbo Crab Live",
+                "price": "IDR 35K",
+                "category": "kepiting"
+            },
+            {
+                "name": "Kepiting Rajungan",
+                "desc": " Blue Crab Live",
+                "price": "IDR 35K",
+                "category": "kepiting"
+            }
+        ],
+    "lobster": [
+        {
+            "name": "Lobster Soka",
+            "desc": "Soft Shell Crab",
+            "price": "IDR 35K",
+            "category": "Lobster"
+        },
+        {
+            "name": "Lobster Jantan 4.5 Up",
+            "desc": "Male Crab Live 4.5 Up",
+            "price": "IDR 35K",
+            "category": "Lobster"
+        },
+        {
+            "name": "Lobster Jumbo 5 Up",
+            "desc": "Jumbo Crab Live 5 Up",
+            "price": "IDR 35K",
+            "category": "Lobster"
+        },
+        {
+            "name": "Lobster Super Jumbo 7 Up",
+            "desc": "Super Jumbo Crab Live 7 Up",
+            "price": "IDR 35K",
+            "category": "Lobster"
+        }
+    ],
+    "Kerang": [
+        {
+            "name": "Kerang Soka",
+            "desc": "Soft Shell Crab",
+            "price": "IDR 35K",
+            "category": "Kerang"
+        },
+        {
+            "name": "Kerang Jantan 4.5 Up",
+            "desc": "Male Crab Live 4.5 Up",
+            "price": "IDR 35K",
+            "category": "Kerang"
+        },
+        {
+            "name": "Kerang Jumbo 5 Up",
+            "desc": "Jumbo Crab Live 5 Up",
+            "price": "IDR 35K",
+            "category": "Kerang"
+        },
+        {
+            "name": "Kerang Super Jumbo 7 Up",
+            "desc": "Super Jumbo Crab Live 7 Up",
+            "price": "IDR 35K",
+            "category": "Kerang"
+        },
+        {
+            "name": "Kerang Extra Super Jumbo",
+            "desc": " Extra Super Jumbo Crab Live",
+            "price": "IDR 35K",
+            "category": "Kerang"
+        }
+    ]
+    
+}
