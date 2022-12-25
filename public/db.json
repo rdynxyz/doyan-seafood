@@ -4,94 +4,193 @@
             "name": "Kepiting Soka",
             "desc": "Soft Shell Crab",
             "price": "IDR 35K",
-            "category": "kepiting",
-            "recomend": true
+            "category": "kepiting"
         },
         {
             "name": "Kepiting Jantan 4.5 Up",
-            "desc": "Male Crab Live 4.5 Up",
+            "desc": "Male Crab 4.5 Up",
             "price": "IDR 35K",
             "category": "kepiting"
         },
         {
             "name": "Kepiting Jumbo 5 Up",
-            "desc": "Jumbo Crab Live 5 Up",
+            "desc": "Jumbo Crab 5 Up",
             "price": "IDR 35K",
             "category": "kepiting"
         },
         {
             "name": "Kepiting Super Jumbo 7 Up",
-            "desc": "Super Jumbo Crab Live 7 Up",
+            "desc": "Super Jumbo Crab 7 Up",
             "price": "IDR 35K",
             "category": "kepiting"
         },
         {
             "name": "Kepiting Extra Super Jumbo",
-            "desc": " Extra Super Jumbo Crab Live",
+            "desc": " Extra Super Jumbo Crab",
             "price": "IDR 35K",
             "category": "kepiting"
         },
         {
             "name": "Kepiting Rajungan",
-            "desc": " Blue Crab Live",
+            "desc": " Blue Crab",
             "price": "IDR 35K",
             "category": "kepiting"
         },
         {
-            "name": "Lobster Soka",
-            "desc": "Soft Shell Crab",
-            "price": "IDR 35K",
-            "category": "lobster",
-            "recomend": true
-        },
-        {
-            "name": "Lobster Jantan 4.5 Up",
-            "desc": "Male Crab Live 4.5 Up",
+            "name": "Lobster Pakistan",
+            "desc": "Pakistan Lobster",
             "price": "IDR 35K",
             "category": "lobster"
         },
         {
-            "name": "Lobster Jumbo 5 Up",
-            "desc": "Jumbo Crab Live 5 Up",
+            "name": "Lobster Tawar",
+            "desc": "Tawar Lobster",
             "price": "IDR 35K",
             "category": "lobster"
         },
         {
-            "name": "Lobster Super Jumbo 7 Up",
-            "desc": "Super Jumbo Crab Live 7 Up",
+            "name": "Lobster Bambu",
+            "desc": "Bambu Lobster",
             "price": "IDR 35K",
             "category": "lobster"
         },
         {
-            "name": "Kerang Soka",
-            "desc": "Soft Shell Crab",
+            "name": "Lobster Mutiara",
+            "desc": "Mutiara Lobster",
             "price": "IDR 35K",
-            "category": "kerang",
-            "recomend": true
+            "category": "lobster"
         },
         {
-            "name": "Kerang Jantan 4.5 Up",
-            "desc": "Male Crab Live 4.5 Up",
+            "name": "Lobster Pasir",
+            "desc": "Pasir Lobster",
+            "price": "IDR 35K",
+            "category": "lobster"
+        },
+        {
+            "name": "Lobster Boston",
+            "desc": "Boston Lobster",
+            "price": "IDR 35K",
+            "category": "lobster"
+        },
+        {
+            "name": "Kerang Dara",
+            "desc": "Red Clams",
             "price": "IDR 35K",
             "category": "kerang"
         },
         {
-            "name": "Kerang Jumbo 5 Up",
-            "desc": "Jumbo Crab Live 5 Up",
+            "name": "Kerang Hijau",
+            "desc": "Green Mussel",
             "price": "IDR 35K",
             "category": "kerang"
         },
         {
-            "name": "Kerang Super Jumbo 7 Up",
-            "desc": "Super Jumbo Crab Live 7 Up",
+            "name": "Kerang Batik",
+            "desc": "Batik Clams",
             "price": "IDR 35K",
             "category": "kerang"
         },
         {
-            "name": "Kerang Extra Super Jumbo",
-            "desc": " Extra Super Jumbo Crab Live",
+            "name": "Kerang Tahu",
+            "desc": "White Clams",
             "price": "IDR 35K",
             "category": "kerang"
+        },
+        {
+            "name": "Kerang Simping",
+            "desc": "Capiz Clams",
+            "price": "IDR 35K",
+            "category": "kerang"
+        },
+        {
+            "name": "Kerang Bambu",
+            "desc": "Iris iris",
+            "price": "IDR 35K",
+            "category": "kerang"
+        },
+        {
+            "name": "Kerang Kijing",
+            "desc": "Kijing Clams",
+            "price": "IDR 35K",
+            "category": "kerang"
+        },
+        {
+            "name": "Kakap",
+            "desc": "Snapper Fish",
+            "price": "IDR 35K",
+            "category": "ikan"
+        },
+        {
+            "name": "Bandeng",
+            "desc": "Milkfish",
+            "price": "IDR 35K",
+            "category": "ikan"
+        },
+        {
+            "name": "Nila",
+            "desc": "Nile Tilapia",
+            "price": "IDR 35K",
+            "category": "ikan"
+        },
+        {
+            "name": "Gurami",
+            "desc": "Gouramy",
+            "price": "IDR 35K",
+            "category": "ikan"
+        },
+        {
+            "name": "Kerapu",
+            "desc": "Grouper Fish",
+            "price": "IDR 35K",
+            "category": "ikan"
+        },
+        {
+            "name": "Mix Grilled Seafood",
+            "desc": "Kepiting, Lobster, Kerang, Cumi",
+            "price": "IDR 35K",
+            "category": "mix"
+        },
+        {
+            "name": "Mix All Clams",
+            "desc": "Kerang Dara, Hijau, Bambu, Tahu, Simping, Kijing",
+            "price": "IDR 35K",
+            "category": "mix"
+        },
+        {
+            "name": "Lada Hitam",
+            "desc": "Black Pepper",
+            "price": "",
+            "category": "dish"
+        },
+        {
+            "name": "Saus Padang",
+            "desc": "Padang Sauce",
+            "price": "",
+            "category": "dish"
+        },
+        {
+            "name": "Mentega",
+            "desc": "Butter",
+            "price": "",
+            "category": "dish"
+        },
+        {
+            "name": "Saus Manado",
+            "desc": "Manado Sauce",
+            "price": "",
+            "category": "dish"
+        },
+        {
+            "name": "Steam Bawang Putih",
+            "desc": "Steamed With Garlic",
+            "price": "",
+            "category": "dish"
+        },
+        {
+            "name": "Saus Bawang",
+            "desc": "Onion Sauce",
+            "price": "",
+            "category": "dish"
         }
     ]
     

@@ -4,7 +4,7 @@
         <div
             class="w-full border-b-[1px] pb-4 mt-10 gap-11 flex md:justify-center text-xl overflow-x-scroll md:overflow-hidden">
             <button v-for="button in buttons" :key="button.id" @click="menuLoad"
-                :class="`menu-btn relative after:contents-[''] after:h-[2px] after:w-0 after:left-0 after:bg-accent after:absolute after:bottom-[-17px] after:duration-300 focus:after:w-full hover:text-accent focus:text-accent cursor-pointer duration-150 ${button.class}`"
+                :class="`menu-btn relative after:contents-[''] after:h-[2px] after:w-0 after:left-0 after:bg-accent after:absolute after:bottom-[-16px] after:duration-300 focus:after:w-full hover:text-accent focus:text-accent cursor-pointer duration-150 ${button.class}`"
                 :id="`${button.for}`">{{ button.title }}</button>
         </div>
         <div id="daftar-menu" class="w-full grid grid-cols-1 lg:grid-cols-2 pt-14 gap-8">
@@ -26,8 +26,9 @@ export default {
             { id: 2, title: 'Lobster' },
             { id: 3, title: 'Kerang' },
             { id: 4, title: 'Ikan' },
-            { id: 4, title: 'Mix' },
-        ];
+            { id: 5, title: 'Mix' },
+            { id: 6, title: 'Dish' }
+        ]
 
         function displayMenu(){
             $.getJSON('db.json', function (data) {
