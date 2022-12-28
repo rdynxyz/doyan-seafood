@@ -6,7 +6,9 @@
     </div>
     <div class="ml-20 hidden lg:block z-30">
       <ul class="flex gap-8">
-        <li v-for="nav in navList" :key="nav"><a class="relative after:contents-[''] after:h-[2px] after:w-0 after:left-0 after:bg-accent after:absolute after:bottom-[-6px] after:duration-300 focus:after:w-6 hover:after:w-6 cursor-pointer focus:font-bold duration-150" :href="`${nav.ref}`">{{nav.name}}</a></li>
+        <li v-for="nav in navList" :key="nav">
+          <a :class="`${nav.class}`" class="relative after:contents-[''] after:h-[2px] after:w-0 after:left-0 after:bg-accent after:absolute after:bottom-[-6px] after:duration-300 focus:after:w-6 hover:after:w-6 cursor-pointer focus:font-bold focus:text-accent duration-150" :href="`${nav.ref}`">{{nav.name}}</a>
+        </li>
       </ul>
     </div>
   </nav>
@@ -16,9 +18,9 @@
 export default {
   setup(){
     let navList = [
-      {name : 'Home', ref: '#'},
+      {name : 'Home', ref: '#', class:'after:w-6 font-bold text-accent'},
       {name : 'About Us', ref: '#about-us'},
-      {name : 'Contact', ref: '#'},
+      {name : 'Contact', ref: '#footer'},
       {name : 'Outlet', ref: '#'},
     ];
     return {navList};
