@@ -7,7 +7,7 @@
  
             <p class="mt-8 min-[450px]:w-[424px]">Dengan Doyan Seafood, tak perlu khawatir menikmati makanan lezat yang tetap sehat untuk tubuh Anda</p>
             <div class="mt-8">
-                <button class="px-10 py-3 rounded-md border bg-accent text-white font-bold"><a href="">Order sekarang</a></button>
+                <button class="px-10 py-3 rounded-md border bg-accent text-white font-bold hover:bg-transparent hover:text-accent duration-150 hover:outline hover:outline-accent hover:outline-1"><a href="">Order sekarang</a></button>
             </div>
         </div>
         <!-- home display -->

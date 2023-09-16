@@ -52,9 +52,11 @@
                 </div>
             </div>
         </div>
-        <div
-            class="w-full py-5 font-normal text-sm min-[450px]:text-base bg-accent flex items-center justify-center text-white">
-            <h1>Copyright ©2022.doyanseafood All rights reserved</h1>
+        <div class="w-full py-5 font-normal text-sm min-[450px]:text-base bg-accent text-white md:flex md:justify-center md:items-centre">
+            <h1 class="text-center">©2022 Doyan Seafood | All Rights Reserved </h1>
+            <h1 class="ml-1 text-center"> | Develop by
+                <a href="" class="italic">@radyanbintang</a>
+            </h1>
         </div>
     </footer>
 </template>

@@ -5,7 +5,7 @@
             <h1 class="font-roboto text-header font-bold text-5xl mt-2">Customer Review</h1>
             <img :src="`./icons/Quotes.svg`" alt="" class="mt-2">
             <p class="mt-6">Secara keseluruhan aku sangat puas order makanan disini karena dengan kisaran harga dari Rp50.000,- sampai Rp250.000,- kita bisa makan Seafood yang enak parah. Rekomen aku adalah kalian harus banget coba Lobester saus lada hitam, gurih dan pedes dari ladanya gokil abis.</p>
-            <p class="mt-5 font-bold">Anna Marseille</p>
+            <p class="mt-5 font-bold">- Diana</p>
         </div>
         <div class="w-full lg:w-1/2 lg:pl-10 relative">
             <img :src="`./images/1088277.webp`" alt="" class="w-[500px] rounded-md">

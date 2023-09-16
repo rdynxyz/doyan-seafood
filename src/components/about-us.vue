@@ -15,7 +15,7 @@
             <h1 class="text-5xl font-bold font-roboto text-header mt-2 md:w-[540px]">Makanan adalah bagian penting dari diet seimbang</h1>
             <p class="mt-8">Kami adalah rumah olah Seafood di Surabaya yang mengedepankan kualitas dan keseimbangan komposisi, agar masakan tidak hanya lezat tetapi juga sehat</p>
             <div class="">
-                <button class="px-10 py-3 rounded-md bg-accent text-white font-bold mr-4 mt-8"><a href="">Lihat detail</a></button>
+                <button class="px-10 py-3 rounded-md bg-accent text-white font-bold mr-4 mt-8 hover:bg-transparent hover:text-accent duration-150 hover:outline hover:outline-accent hover:outline-1"><a href="">Lihat detail</a></button>
             </div>
         </div>
     </section>

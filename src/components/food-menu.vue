@@ -11,7 +11,7 @@
 
         </div>
         <div class="flex justify-center mt-8">
-            <button @click="allMenu" class="border-[1px] border-accent text-accent py-2 px-6 rounded-md">All
+            <button @click="allMenu" class="border-[1px] border-accent text-accent py-2 px-6 rounded-md hover:bg-accent hover:text-white duration-150">All
                 menu</button>
         </div>
     </section>
