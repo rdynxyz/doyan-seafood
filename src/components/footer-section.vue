@@ -10,7 +10,7 @@
                     <button class="bg-accent px-3 rounded-r-md"><img :src="`icons/Send.svg`" alt=""></button>
                 </div>
                 <div class="flex gap-4 mt-6">
-                    <a href="https://instagram.com/doyanseafood.sby">
+                    <a href="https://instagram.com/doyanseafoodsby">
                         <img :src="`./icons/instagram.svg`" alt="">
                     </a>
                     <a href="">
